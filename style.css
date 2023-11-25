@@ -1,0 +1,168 @@
+body {
+  background-color: var(--primary-color);
+  line-height: 50px;
+  text-align: center;
+  outline: none;
+}
+
+#header {
+  text-align: center;
+  border-radius: 6px;
+}
+
+h1l {
+  font-family: cursive;
+  color: rgb(85, 81, 81);
+  font-size: 70px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+#a02 {
+  float: right;
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+#equiv {
+  float: left;
+  font-size: 40px;
+  margin-left: 20px;
+  color:#000015;
+}
+
+#smoke {
+  background-color: whites;
+  color: #3c5963;
+}
+
+#a01 {
+  color: rgb(15, 146, 15);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  line-height: 10px;
+}
+
+#p01 {
+  background-color: rgb(15, 146, 15);
+  line-height: 30px;
+  border-radius: 6px;
+  padding-top: 20px;
+
+}
+
+button {
+  background-color: rgb(109, 105, 105);
+  text-align: center;
+}
+
+#troy {
+  text-align: center;
+}
+
+button {
+  background-color: rgb(54, 53, 53);
+  color: var(--primary-color);
+  outline: none;
+  border:0px;
+  border-radius: 4px;
+}
+
+.img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  filter: drop-shadow 20px #3c0105;
+}
+
+footer {
+  color: var(--secondary-color);
+  background-color: #3c5963;
+  font-size: 10px;
+  text-align: center;
+}
+
+p {
+  color: var(--secondary-color);
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2px;
+}
+.lola{
+  width:80px;
+  height:auto;
+  border-radius:50%;
+}
+.creole {
+  font-size: 30px;
+}
+
+#tray {
+  border: 1px black;
+  width: 250px;
+  padding: 1px;
+  border-style: none;
+  text-align: center;
+  background-color: var(--primary-color);
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 20%;
+  box-shadow: 7px 5px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+#pooh {
+  color: grey;
+}
+
+#trey {
+  width: 400px;
+  color: rgb(15, 146, 15);
+  font-family: gothic;
+  margin: auto;
+  margin-bottom: 1px;
+  padding: 1px;
+  font-size: 15px;
+}
+
+.like {
+  width: 40px;
+  height: 40px;
+
+}
+
+#mode {
+  width: 30px;
+  height: 30px;
+  margin: 0px 20px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+:root {
+  --primary-color: #fff;
+  --secondary-color: #000;
+
+}
+
+.dark-theme {
+  --primary-color: #3c5963;
+  --secondary-color: #fff;
+}
+
+.leg {
+  font-size: 12px;
+  font-weight: 450;
+  color: grey;
+
+}
+
+@media only screen and (max-width:400px) {
+  #trey {
+    width: 300px;
+    padding: 5px;
+    font-size: 12px;
+  }
+}
